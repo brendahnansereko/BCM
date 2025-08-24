@@ -1,0 +1,34 @@
+#' A function to say hello to the user
+#'
+#' @param myname The name of the person to say hello to.
+#'
+#' @returns Says hello to the user input name.
+#' @export
+#'
+#' @examples
+#' say_hello("Annie")
+say_hello <- function(myname) {
+  checkmate::assertString(myname)
+  print(paste0("Hello ", myname))
+}
+
+#' Send a message
+#'
+#' @param nice A Boolean variable to indicate whether the message should be nice or mean.
+#' @param myname Name to send the message to
+#'
+#' @returns Either a nice message or a mean one.
+#' @export
+#'
+#' @examples
+#' send_message("Annie")
+#' send_message("Annie", nice=FALSE)
+send_message <- function(myname, nice=TRUE){
+  checkmate::assertString(myname)
+
+  if(nice){
+    print(paste0("Keep going ", myname, "! You're doing very well!"))
+  }else{
+    print(paste0("You need to work harder ", myname))
+  }
+}
