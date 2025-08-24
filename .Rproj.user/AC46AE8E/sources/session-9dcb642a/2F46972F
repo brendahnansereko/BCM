@@ -1,0 +1,26 @@
+{
+    "id": "2F46972F",
+    "path": "C:/Brendah/BCM/man/estimate_treatment_effect.Rd",
+    "project_path": "man/estimate_treatment_effect.Rd",
+    "type": "r_doc",
+    "hash": "1407156140",
+    "contents": "",
+    "dirty": false,
+    "created": 1756031813688.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1756024750,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1756024750,
+    "read_only": true,
+    "read_only_alternatives": [
+        "R/estimation.R"
+    ]
+}
